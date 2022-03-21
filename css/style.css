@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,html {
+    width: 100%;
+    height: 100%;
+}
+
+.div1 {
+    width: 50%;
+    height: auto;
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    float: left;
+    
+
+
+}
+.div2 {
+    width: 50%;
+    height: auto;
+    color: black;
+    background-color: lightpink;
+    text-align: center;
+    float: right;
+}
+
+@media screen and (max-width: 769px) {
+    
+
+    .div1 {
+        width: 100%;
+        height: auto;
+        color: black;
+        background-color: lightgray;
+        text-align: center;
+
+
+    
+    
+    }
+    .div2 {
+        width: 100%;
+        height: auto;
+        color: black;
+        background-color: lightpink;
+        text-align: center;
+    }
+}
